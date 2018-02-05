@@ -2,5 +2,7 @@
   "name": "inspetorvirtual",
   "app_id": "98b1fb1a",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }

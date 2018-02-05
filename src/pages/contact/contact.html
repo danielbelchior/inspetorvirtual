@@ -1,17 +1,21 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>
+            Sobre
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+    <ion-list>
+        <ion-list-header>Inspetor Virtual</ion-list-header>
+        <ion-item text-wrap>
+            <ion-icon name="ios-lock-outline" item-start></ion-icon>
+            Caso haja alguma inconsistência no cadastro, favor entrar em contato com a secretaria.
+        </ion-item>
+        <ion-item>
+            <button (click)="logout()" full ion-button color="danger" class="disable-hover button button-ios button-default button-default-ios button-full button-full-ios"> Deslogar do aplicativo </button>
+        </ion-item>
+    </ion-list>
+
 </ion-content>

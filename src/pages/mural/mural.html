@@ -15,7 +15,12 @@
 
 <ion-content padding>
 
-    <ng-container *ngFor="let msg of mural">
+
+  <ng-container ng-if="!mural">
+    Não há mensagem da secretaria!
+  </ng-container>
+
+    <ng-container *ngFor="let msg of mural" ng-if="mural">
         <ion-card class="cinza">
             <ion-card-header>
               {{msg.data}}
